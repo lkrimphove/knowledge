@@ -1,11 +1,15 @@
 # Content
 
+## Tools
+- [obsidian](./tools/obsidian.md)
+- [plantuml](./tools/plantuml.md)
+
 ## Homelab
-- [docker](./homelab/docker)
-- [ufw](./homelab/ufw)
+- [docker](./homelab/docker.md)
+- [ufw](./homelab/ufw.md)
 
 ## TODO/Staging
 - [[git]]
 - [[outlook-macros]]
-- [[plantuml]]
 - [[terraform]]
+- [[ssh-certificates]]

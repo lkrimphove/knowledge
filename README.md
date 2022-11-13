@@ -2,6 +2,10 @@
 
 --> under construction <--
 
+# How to use
+I recommend downloading and opening this repository with [Obsidian](https://obsidian.md).
+Feel free to fork the repo and add your own docs.
+
 ![](./know-how)
 
 ## Support me
