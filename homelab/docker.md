@@ -17,3 +17,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 4. [Initial hardening with ufw](ufw.md#Initial%20hardening) (optional)
+
+# Tags
+#homelab #server #docker #docker-compose

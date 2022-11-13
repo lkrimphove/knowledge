@@ -10,3 +10,6 @@ sudo ufw allow ssh
 # Enable UFW
 sudo ufw enable
 ```
+
+# Tags
+#homelab #server #firewall
