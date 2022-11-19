@@ -8,6 +8,9 @@
 - [docker](./homelab/docker.md)
 - [ufw](./homelab/ufw.md)
 
+## Libraries
+- [django](./libraries/django.md)
+
 ## TODO/Staging
 - [[git]]
 - [[outlook-macros]]
