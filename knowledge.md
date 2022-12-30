@@ -8,8 +8,8 @@
 - [docker](./homelab/docker.md)
 - [ufw](./homelab/ufw.md)
 
-## Libraries
-- [django](./libraries/django.md)
+## Frameworks
+- [django](knowledge/frameworks/django.md)
 
 ## TODO/Staging
 - [[git]]

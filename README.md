@@ -7,7 +7,7 @@ I recommend downloading and opening this repository with [Obsidian](https://obsi
 
 Feel free to fork the repo and add your own docs.
 
-![](know-how.md)
+![](knowledge.md)
 
 ## Support me
 If you like my work please consider supporting me by buying me a coffee:
