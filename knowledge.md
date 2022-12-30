@@ -1,6 +1,7 @@
 # Content
 
 ## Tools
+- [git](./tools/git.md)
 - [obsidian](./tools/obsidian.md)
 - [plantuml](./tools/plantuml.md)
 
@@ -8,11 +9,13 @@
 - [docker](./homelab/docker.md)
 - [ufw](./homelab/ufw.md)
 
+## AWS
+- [credentials-management](./aws/credentials-management)
+
 ## Frameworks
 - [django](knowledge/frameworks/django.md)
 
 ## TODO/Staging
-- [[git]]
 - [[outlook-macros]]
 - [[terraform]]
 - [[ssh-certificates]]
