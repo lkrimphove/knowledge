@@ -11,6 +11,7 @@
 
 ## AWS
 - [credentials-management](./aws/credentials-management)
+- [s3-upload](./aws/s3-upload)
 
 ## Frameworks
 - [django](knowledge/frameworks/django.md)
