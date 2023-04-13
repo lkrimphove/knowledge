@@ -1,23 +1,25 @@
-# Content
+# Knowledge
 
-## Tools
-- [git](./tools/git.md)
-- [obsidian](./tools/obsidian.md)
-- [plantuml](./tools/plantuml.md)
+## Content
 
-## Homelab
-- [docker](./homelab/docker.md)
-- [ufw](./homelab/ufw.md)
+### Tools
+- [git](../tools/git.md)
+- [obsidian](../tools/obsidian.md)
+- [plantuml](../tools/plantuml.md)
 
-## AWS
-- [credentials-management](./aws/credentials-management)
-- [guide for using the WSL for cloud dev](./aws/guide-wsl-cloud-dev-environment)
-- [s3-upload](./aws/s3-upload)
+### Homelab
+- [docker](../homelab/docker.md)
+- [ufw](../homelab/ufw.md)
 
-## Frameworks
-- [django](knowledge/frameworks/django.md)
+### AWS
+- [credentials-management](../aws/credentials-management.md)
+- [guide for using the WSL for cloud dev](../aws/guide-wsl-cloud-dev-environment.md)
+- [s3-upload](../aws/s3-upload.md)
 
-## TODO/Staging
-- [[outlook-macros]]
-- [[terraform]]
-- [[ssh-certificates]]
+### Frameworks
+- [django](../knowledge/frameworks/django.md)
+
+### TODO/Staging
+- [outlook-macros](../staging/outlook-macros.md)
+- [terraform](../staging/terraform.md)
+- [ssh-certificates](../staging/ssh-certificates.md)
