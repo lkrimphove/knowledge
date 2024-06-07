@@ -1,8 +1,6 @@
-# References
-- [GitHub Docs](https://docs.github.com/en)
-- [GitLab Docs](https://docs.gitlab.com/)
+# git
 
-# Authentication
+## Authentication
 ## SSH
 - [GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 - [GitLab Docs](https://docs.gitlab.com/ee/user/ssh.html)
@@ -15,7 +13,7 @@
 $ ssh -T git@github.com
 ```
 
-# Change author of a commit
+## Change author of a commit
 - [git-commit-author-rewrite.md](https://gist.github.com/trey/9588090#file-git-commit-author-rewrite-md)
 
 **Of the last commit:**
@@ -36,5 +34,12 @@ git filter-branch --commit-filter '
       fi' HEAD
 ```
 
-# Tags
+
+---
+
+## Resources
+- [git](https://www.git-scm.com/)
+- [GitHub Docs](https://docs.github.com/en)
+- [GitLab Docs](https://docs.gitlab.com/)
+## Tags
 #git #version-control
