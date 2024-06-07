@@ -1,13 +1,11 @@
-# References
-- [PlantUML GitHub](https://github.com/plantuml/plantuml)
-- [AWS Icons for Plant UML GitHub](https://github.com/awslabs/aws-icons-for-plantuml)
+# PlantUML
 
-# Auto numbering
-## Challenge
+## Auto numbering
+### Challenge
 Whenever you add numbering to a diagram (for referencing or for outlining a sequence) you have to number each object like an arrow manually. If you then add another object in between two existing ones, you will have to increment all the following numbers by one.
 So naturally one would want to prevent this and add a way to assign numbers to each object, which will automatically adjust as soon as you add another object or change their order.
 
-## Solution
+### Solution
 In order to automatically number arrows (or other objects) add a counter-variable and a function which increases the counter and then returns its value.
 ```
 !$counter = 0
@@ -31,7 +29,7 @@ object2 -> object3 : $stepnum()
 object3 -> object1 : $stepnum()
 ```
 
-## Example:
+### Example:
 ```plantuml
 @startuml AutoNumberingExample
 
@@ -52,5 +50,10 @@ object3 -> object1 : $stepnum()
 @enduml
 ```
 
-# Tags
-#markdown #notekeeping #creating-documentation
+---
+## Resources
+- [PlantUML GitHub](https://github.com/plantuml/plantuml)
+- [AWS Icons for Plant UML GitHub](https://github.com/awslabs/aws-icons-for-plantuml)
+
+## Tags
+#markdown #note-taking #creating-documentation

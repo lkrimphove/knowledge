@@ -1,5 +1,3 @@
-<!-- START_INCLUDE:'../knowledge.md' -->
-
 # Knowledge
 
 ## Content
@@ -10,8 +8,9 @@
 - [plantuml](../tools/plantuml.md)
 
 ### Homelab
-- [docker](../homelab/docker.md)
+- [Guide - First Steps On Ubuntu Server](./homelab/ubuntu-server-first-steps)
 - [ufw](../homelab/ufw.md)
+- [docker](../homelab/docker.md)
 
 ### AWS
 - [credentials-management](../aws/credentials-management.md)
@@ -25,8 +24,6 @@
 - [outlook-macros](../staging/outlook-macros.md)
 - [terraform](../staging/terraform.md)
 - [ssh-certificates](../staging/ssh-certificates.md)
-
-<!-- END_INCLUDE -->
 
 ## How to use
 I recommend downloading and opening this repository with [Obsidian](https://obsidian.md).
