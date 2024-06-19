@@ -5,7 +5,7 @@
 	- you won't really need it on Windows, but there are some use cases where it is nice to have
 	- https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 - set up your AWS credentials
-	- [credentials-management](credentials-management.md)
+	- [[credentials-management]]
 	- you can do this using IntelliJ (and the AWS Toolkit plugin) or any other text-editor (just create/edit the file `C:\Users\<your windows user name>/.aws/config`)
 	- an initial config file could look like this:
 ```toml

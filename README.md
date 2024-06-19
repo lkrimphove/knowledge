@@ -8,7 +8,7 @@
 - [plantuml](./tools/plantuml.md)
 
 ### Homelab
-- [Guide - First Steps On Ubuntu Server](./homelab/ubuntu-server-first-steps)
+- [Guide - First Steps On Ubuntu Server](./homelab/ubuntu-server-first-steps.md)
 - [ufw](./homelab/ufw.md)
 - [docker](./homelab/docker.md)
 
