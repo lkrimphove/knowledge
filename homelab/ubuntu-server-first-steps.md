@@ -20,7 +20,7 @@ timedatectl set-timezone 'Europe/Berlin'
 > [!tip]
 > Use `timedatectl` to list all available timezones
 > ```bash
-timedatectl list-timezones
+> timedatectl list-timezones
 > ```
 > Use the arrow keys, `Page Up`, and `Page Down` to navigate through the list. Copy or make note of your desired time zone and press **q** to exit the list.
 
@@ -99,8 +99,8 @@ systemctl enable --now ssh.service
 
 
 ## Next steps
-- [ufw](./ufw.md)
-- [docker](./docker.md)
+- [[ufw]]
+- [[docker]]
 
 
 ---
