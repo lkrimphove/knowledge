@@ -3,7 +3,6 @@ title: Django
 draft: false
 tags:
   - python
-  - Django
   - framework
 ---
 # Django

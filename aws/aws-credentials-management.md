@@ -21,12 +21,12 @@ region = us-west-2
 ```
 
 Change the credentials to fit your account/role-combination:
-![](./../assets/aws-credentials-management-sso.png)
+![](aws-credentials-management-sso.png)
 
 ## Toolkit for JetBrains with AWS SSO
 
 After configuring the profiles, you can select your account and open a terminal associated with this account. (this won't work if you are using the a WSL terminal like the Ubuntu one instead of Windows PowerShell - [more information](guide-wsl-cloud-dev-environment.md))
-![](./../assets/jetbrains-toolbox-credentials.png)
+![](jetbrains-toolbox-credentials.png)
 
 You can check whether you are logged into the right account by using the `aws sts get-caller-identity` command.
 
