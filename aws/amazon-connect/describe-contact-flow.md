@@ -1,4 +1,13 @@
-# Describe contact flow
+---
+title: Describe Contact Flow
+draft: false
+tags:
+  - aws
+  - amazon-connect
+  - terraform
+  - iac
+---
+# Describe Contact Flow
 
 ## Synopsis
 ```bash
@@ -93,6 +102,3 @@ resource "aws_connect_contact_flow" "test" {
 ## Resources
 - [describe-contact-flow](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/connect/describe-contact-flow.html)
 - [Terraform - connect_contact_flow](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/connect_contact_flow)
-
-## Tags
-#aws #amazon-connect #terraform #iac #infrastructure-as-code

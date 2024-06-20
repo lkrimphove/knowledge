@@ -1,3 +1,11 @@
+---
+title: Guide - First Steps On Ubuntu Server
+draft: false
+tags:
+  - guide
+  - homelab
+  - server
+---
 # Guide - First Steps On Ubuntu Server
 
 > [!info]
@@ -106,7 +114,3 @@ systemctl enable --now ssh.service
 ---
 ## Resources
 - [Guides - Setting Up and Securing a Compute Instance](https://www.linode.com/docs/products/compute/compute-instances/guides/set-up-and-secure/)
-
-
-## Tags
-#guide #homelab #server

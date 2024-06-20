@@ -1,11 +1,21 @@
-# How to use WSL for cloud development
+---
+title: Guide - How to Use WSL for Cloud Development
+draft: false
+tags:
+  - aws
+  - wsl
+  - zsh
+  - IDE
+  - productivity
+---
+# Guide - How to Use WSL for Cloud Development
 ## How to set up
 ### Prerequisites
 - install AWS CLI on Windows (optional)
 	- you won't really need it on Windows, but there are some use cases where it is nice to have
 	- https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 - set up your AWS credentials
-	- [[credentials-management]]
+	- [[aws-credentials-management]]
 	- you can do this using IntelliJ (and the AWS Toolkit plugin) or any other text-editor (just create/edit the file `C:\Users\<your windows user name>/.aws/config`)
 	- an initial config file could look like this:
 ```toml
@@ -229,6 +239,9 @@ pipenv
 - install the Nyan Progress Bar plugin (optional)
 	- h,tps://plugins.jetbrains.com/plugin/8575-nyan-progress-bar
 	- (its optional, but you will really miss out on something if you don't install it)
+
+### Configure VSCode (optional)
+#TODO
 
 ## How to use
 ### Cloning a repo

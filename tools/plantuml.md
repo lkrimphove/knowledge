@@ -1,3 +1,12 @@
+---
+title: PlantUML
+draft: false
+tags:
+  - note-taking
+  - creating-documentation
+  - tools
+  - productivity
+---
 # PlantUML
 
 ## Auto numbering
@@ -54,6 +63,3 @@ object3 -> object1 : $stepnum()
 ## Resources
 - [PlantUML GitHub](https://github.com/plantuml/plantuml)
 - [AWS Icons for Plant UML GitHub](https://github.com/awslabs/aws-icons-for-plantuml)
-
-## Tags
-#markdown #note-taking #creating-documentation
