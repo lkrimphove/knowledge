@@ -1,3 +1,12 @@
+---
+title: UFW
+draft: false
+tags:
+  - guide
+  - homelab
+  - server
+  - firewall
+---
 # UFW
 
 > [!warning]
@@ -27,11 +36,6 @@ sudo ufw enable
 
 
 ---
-
 ## Resources
 - [UFW](https://wiki.ubuntu.com/UncomplicatedFirewall)
 - [Guides - How to Configure a Firewall with UFW](https://www.linode.com/docs/guides/configure-firewall-with-ufw/)
-
-
-## Tags
-#guide #homelab #server #firewall
