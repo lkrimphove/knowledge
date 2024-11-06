@@ -1,7 +1,15 @@
-# git
+---
+title: Git
+draft: false
+tags:
+  - git
+  - version-control
+---
+# Git
 
 ## Authentication
-## SSH
+### SSH
+- [[ssh]]
 - [GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 - [GitLab Docs](https://docs.gitlab.com/ee/user/ssh.html)
 
@@ -36,10 +44,7 @@ git filter-branch --commit-filter '
 
 
 ---
-
 ## Resources
 - [git](https://www.git-scm.com/)
 - [GitHub Docs](https://docs.github.com/en)
 - [GitLab Docs](https://docs.gitlab.com/)
-## Tags
-#git #version-control

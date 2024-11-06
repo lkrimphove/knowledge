@@ -1,3 +1,13 @@
+---
+title: docker
+draft: false
+tags:
+  - homelab
+  - server
+  - docker
+  - docker-compose
+  - dev-oüs
+---
 # Docker
 
 ## Install Docker Engine
@@ -91,6 +101,3 @@ sudo apt-get install docker-compose-plugin
 - [Post Installation](https://docs.docker.com/engine/install/linux-postinstall/)
 - [Log Rotation](https://docs.docker.com/config/containers/logging/json-file/)
 - [Docker Compose](https://docs.docker.com/compose/install/linux/)
-
-## Tags
-#homelab #server #docker #docker-compose

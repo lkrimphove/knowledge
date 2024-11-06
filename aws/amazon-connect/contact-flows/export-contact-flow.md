@@ -1,4 +1,15 @@
-# Describe contact flow
+---
+title: Exporting Contact Flows
+draft: false
+tags:
+  - aws
+  - amazon-connect
+  - terraform
+  - iac
+---
+# Exporting Contact Flows
+
+Export [[amazon-connect | Amazon Connects]] contact flows using the `describe-contact-flow` command of the AWS CLI.
 
 ## Synopsis
 ```bash
@@ -30,9 +41,9 @@
 ## Describe and Download Contact Flow
 
 Describe and download Amazon Connect contact flows for use in terraform:
-### contact flow module
+### contact flow
 ```bash
-aws connect describe-contact-module --instance-id <instance-id> --contact-flow-id <contact-flow-moudle-id> --region eu-central-1 | jq '.ContactFlowModule.Content | fromjson' > tmp/contact-flow.json 
+aws connect describe-contact-flow --instance-id <instance-id> --contact-flow-id <contact-flow-id> --region eu-central-1 | jq '.ContactFlow.Content | fromjson' > tmp/contact-flow.json 
 ```
 
 ### contact flow module
@@ -66,23 +77,23 @@ resource "aws_connect_contact_flow" "test" {
 > Prevent this by replacing them with dynamic references:
 > ```json
 > {
-  "Parameters": {
-    "EventHooks": {
-      "CustomerRemaining": "${aws_connect_contact_flow.disconnect_flow.arn}"
-    }
-  },
-  "Identifier": "a0ea1bfa-e1d0-4939-9b08-1b7338edbfb7",
-  "Type": "UpdateContactEventHooks",
-  "Transitions": {
-    "NextAction": "bd0c652d-b2d0-4132-895a-573ca35d8cf2",
-    "Errors": [
-      {
-        "NextAction": "bd0c652d-b2d0-4132-895a-573ca35d8cf2",
-        "ErrorType": "NoMatchingError"
-      }
-    ]
-  }
-},
+>  "Parameters": {
+>    "EventHooks": {
+>      "CustomerRemaining": "${aws_connect_contact_flow.disconnect_flow.arn}"
+>    }
+>  },
+>  "Identifier": "a0ea1bfa-e1d0-4939-9b08-1b7338edbfb7",
+>  "Type": "UpdateContactEventHooks",
+>  "Transitions": {
+>    "NextAction": "bd0c652d-b2d0-4132-895a-573ca35d8cf2",
+>    "Errors": [
+>      {
+>        "NextAction": "bd0c652d-b2d0-4132-895a-573ca35d8cf2",
+>        "ErrorType": "NoMatchingError"
+>      }
+>    ]
+>  }
+>},
 > ```
 
 > [!info]
@@ -93,6 +104,4 @@ resource "aws_connect_contact_flow" "test" {
 ## Resources
 - [describe-contact-flow](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/connect/describe-contact-flow.html)
 - [Terraform - connect_contact_flow](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/connect_contact_flow)
-
-## Tags
-#aws #amazon-connect #terraform #iac #infrastructure-as-code
+- [Migrate flows to a different instance](https://docs.aws.amazon.com/connect/latest/adminguide/migrate-contact-flows.html)
